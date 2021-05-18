@@ -2,7 +2,10 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
+using System.Windows.Forms;
+using System.Runtime.InteropServices;
 
 namespace ConsoleApp1
 {
@@ -10,6 +13,8 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
+            MessageBox.Show("Hello world");
+            NativeMethods.SetCursorPos(100, 100);
         }
     }
 }
