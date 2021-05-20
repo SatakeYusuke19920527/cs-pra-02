@@ -11,5 +11,6 @@ namespace ConsoleApp1
     {
         [DllImport("user32.dll")]
         public static extern bool SetCursorPos(int X, int Y);
+       
     }
 }

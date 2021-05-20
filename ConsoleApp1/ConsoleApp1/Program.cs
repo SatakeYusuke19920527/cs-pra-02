@@ -13,8 +13,7 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            MessageBox.Show("Hello world");
-            NativeMethods.SetCursorPos(100, 100);
+            NativeMethods.SetCursorPos(1000, 500);
         }
     }
 }
